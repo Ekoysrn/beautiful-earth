@@ -1,0 +1,185 @@
+*,
+html,
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+
+body{
+    background-image:url(https://www.pixel4k.com/wp-content/uploads/2018/03/Earth%20Horizon573158721.jpg);  
+    font-family: "Poppins", sans-serif;
+}
+
+h1{
+    padding: 100px;
+    text-align:center;
+    color: white;
+    font-weight: 10px;
+}
+
+/* the start navbar */
+nav ul{
+    width:100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color:#333;
+    position: fixed;
+    z-index: 1;
+}
+
+
+li{
+    display: inline-block;
+    list-style-type: none;
+    overflow:hidden;
+    background-color:#333;
+}
+
+li{
+    float:left;
+}
+
+li a{
+    display:inline-block;
+    color: white;
+    text-decoration:none;
+    text-align:center;
+    padding: 14px 17px;
+}
+
+a:hover{
+    background-color: rgb(28, 29, 28);
+}
+
+a:active{
+    background-color:red;
+}
+
+.active{
+    background-color:red;
+}
+
+/* navbar end */
+
+/* container image */
+.containerImg{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.picture{
+    margin-right:10px;
+}
+
+.containerImg img{
+    opacity:.5;
+    transition:0.3s;
+}
+
+/* hover image */
+.containerImg img:hover{
+    opacity:  1;
+}
+
+/* image 1 content */
+.containerImg1 {
+    background-color: lightskyblue;
+    margin-top: 15px;
+    width: 900px;
+    border: 2px solid rgb(47, 0, 255);
+    border-radius: 20px;
+    padding: 10px;
+    overflow: auto;
+    opacity:.8;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.containerImg1 img{
+    float:left;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+/* image 2 content */
+.containerImg2 {
+    background-color: lightskyblue;
+    margin-top: 15px;
+    margin-left: auto;
+    width: 900px;
+    border: 2px solid rgb(47, 0, 255);
+    border-radius: 20px;
+    padding: 10px;
+    overflow:auto;
+    opacity:.8;
+    box-shadow:-5px 5px 5px rgb(0, 0, 0);
+}
+
+.containerImg2 img{
+    float:right;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+/* image 3 content */
+.containerImg3 {
+    background-color: lightskyblue;
+    margin-top: 15px;
+    width: 900px;
+    border: 2px solid rgb(47, 0, 255);
+    border-radius: 20px;
+    padding: 10px;
+    overflow:auto;
+    opacity:.8;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.containerImg3 img{
+    float:left;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    background-color:#1d2a35;
+    margin-top: 16px;
+    padding: 10px;
+    text-align:center;
+}
+
+footer a{
+    display:inline-block;
+    color: white;
+    text-decoration:none;
+    text-align:center;
+    padding: 14px 17px;
+}
+
+/* image hover */
+.containerImg1:hover{
+    opacity: 1;
+}
+
+.containerImg2:hover{
+    opacity: 1;
+}
+
+.containerImg3:hover{
+    opacity: 1;
+}
+
+footer a:hover{
+    box-shadow:0 0 5px 2px #00f3fd,0 0 5px 2px #00f3fd;
+}
+
+
